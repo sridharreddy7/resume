@@ -1,0 +1,189 @@
+\documentclass[9pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames]{color}
+\usepackage{hyperref}
+\leftmargin=0.25in
+\oddsidemargin=0.25in
+\textwidth=6.0in
+\topmargin=-0.25in
+\textheight=9.25in
+
+\raggedright
+
+\pagenumbering{arabic}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+}
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+\contact{Maddireddy Sridhar Reddy}{+(91)-9597368225}{Room No.937,L Block,VIT Hostels,VIT University,Vellore.}{sridharreddy.maddireddy@gmail.com}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\smallskip
+
+% Education
+\header{Education}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Vellore Institute of Technology, Vellore, India.  }{} \hfill \emph{June 2011-present}{} \\
+	\emph{Bachelor of Technology in Computer Science and Engineering.}{} \hfill \emph{CGPA: 8.61/10.0}\\
+  \medskip
+	\textbf{Sri Chaitanya Jr College, Vijayawada, India.} \hfill \emph{May 2010} \\
+	\emph{Board of Intermediate Education.} \hfill \emph{93.2\%}\\
+ \medskip
+	\textbf{Krishna Memorial School, Ongole, India.} \hfill \emph{April 2008} \\
+	\emph{Secondary School Certificate.} \hfill \emph{83.83\%}\\
+\end{body}
+
+%\smallskip
+% Experience
+\header{Relevant Courses}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Computer Science and Engineering}, \emph{Computer Networks,Database Systems,Operating Systems,Computer Programming,Computer Architecture,Algorithm Design and Analysis,Embeded Systems,Theory of Computation,Internet and Web Programming,Software Engineering, Operations Research.}\\
+	\vspace*{-4pt}
+	\medskip
+
+	\textbf {Electives:}
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt
+		\item Introduction to Artificial Intelligence.
+		\item Soft Computing.
+	\end{itemize}
+\end{body}
+
+%\smallskip
+
+
+% Publications
+\header{Projects}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Circular Ludo - Course Project(C++):} \hfill \emph{September-2012} \\
+	Implemented a game similar to ludo where players's coins move across the boundaries and finally reach the center of the board in spirally.\\
+	\smallskip
+	\textbf{Health Meter(Embedded C):} \hfill \emph{March-2012} \\
+	Implemented a Health Meter which counts the number of steps and distance travelled by person using two 8051 microcontoller through wireless rf transmission.\\
+	\smallskip
+	\textbf{Search Suggestion (Python):} \hfill \emph{December-2012} \\
+	Implemented a search suggestion app using python , Freebase API, and hosted on Google App Engine, which uses tags to suggest new item.\underline{ \href{http://www.sridharreddy0007m.appspot.com}{Sridhar's search}}. \\
+	\textbf{Iterative Dominance (C++):} \hfill \emph{October-2013} \\
+	Implemented the Iterative Dominance Algorithm with and without saddle point on real time dataset which is  based on several Cricket teams and predicted which is the most optimal way to win a match by selecting different players at different times.\\
+	
+
+	\smallskip
+	
+\end{body}
+%\smallskip
+
+
+% Skills
+\header{Skills}
+
+\begin{body}
+	\vspace{14pt}
+	\emph{\textbf{Programming:}}{}  HTML/CSS,PHP, mysql, C++, C,Git,Ruby on Rails.\\
+	\medskip
+	\emph{\textbf{Operating Systems:}}{} Windows, Mac OS X, Linux.\\
+\end{body}
+
+%\smallskip
+
+
+% Leadership
+\header{Achievements and Activities }
+
+\begin{body}
+	\vspace{14pt}
+	\begin{itemize} \itemsep -0pt
+		\item Active Open Source Contibutor on \underline{\textbf{ \href{http://www.github.com/sridharreddy7}{GitHub}}}
+		%\item Experience with different APIs.
+		\item Active member in Computer Society of India (CSI-VIT).
+		\item Active member in Students for the Exploration and Development of Space(SEDS-VIT).
+		\item Worked as Sales Volunteer in Riviera -2013.
+		%\item Active open source contributor on \underline{\textbf{ %\href{https://www.github.com/sridharreddy7}{Github}}}
+		%\item Active participant in Competitive Programming Competitions.
+		\item Secured All India rank 2305 in VITEEE-2011 among 1,60,000 students.
+		\item Cisco Certified Network Associate in Network Fundamentals.
+		%\item Active member in National Social Service.
+		\item Finalist (Top 20)  in IEEE Programming League(IPL) an algorithm coding competition organised in Gravitas-2013.
+		\item Worked as a co-ordinator for the event 4th-Estate in Gravitas-2012.
+		\item As Co-ordinator for Riviera-2014.
+
+
+	\end{itemize}
+\end{body}
+
+%\smallskip
+% Awards and Honors
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
